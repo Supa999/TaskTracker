@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+  font-family: Edu QLD Beginner;
+}
+
+main{
+  margin-top: 5vh;
+}
+
+button{
+  border: none;
+  border-radius: 50%;
+  padding: 5px 10px;
+  transition: transform .15s ease;
+}
+
+.edit-button{
+  background-color: rgb(41, 112, 255);
+  color: white;
+  margin-left: 2vw;
+  margin-right: 2vw; 
+  font-size: 3vw;
+}
+
+.delete-button{
+  background-color: rgb(255, 93, 65);
+  color: white;
+  font-size: 3vw;
+}
+
+.edit-button:hover, .delete-button:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.title{
+  margin-top: 2vh;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 10vw;
+}
+
+.task-label{
+  font-size: 5vw;
+}
+
+.task-input{
+  width: 70vw;
+}
+
+li{
+  font-size: 5vw;
+  overflow-wrap: break-word;
+  width: 85vw;
+}
